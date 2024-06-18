@@ -1,10 +1,10 @@
 # Spotify ETL-AWS Project
 Building End to End ETL pipeline on AWS cloud using spotify API.
 
-### Architecture
+### Architecture:
 ![architecture-diagram](https://github.com/Mina2kamel/-Spotify-ETL-Project/blob/main/Project%20Archicture.JPG)
 
-### Project Describtion
+### Project Describtion:
 
 **1. Extraction:** A daily AWS Lambda function, triggered by AWS CloudWatch, extracts Spotify albums, songs, and artists using the Spotify API. The raw data is stored in JSON format in an S3 bucket's raw container.
 
